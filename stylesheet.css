@@ -1,0 +1,79 @@
+body {
+  background: #efefef;
+}
+
+.top_wrapper {
+  text-align:center;
+}
+
+#canvas_wrapper {
+  display: block;
+  text-align: center;
+}
+
+canvas {
+  border:1px solid #000000;
+  background-color: #fff;
+}
+
+.control {
+  text-align:center;
+}
+
+#rock, #scissors, #paper {
+  width:130px;
+  font-size: 36px;
+  color: #fff;
+  background:navy;
+}
+
+#restart {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+/* 以下、ホームボタンの実装 */
+a.btn_03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background: #228bc8;
+  border: 1px solid #228bc8;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 45px 0 25px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  margin-bottom: 20px;
+}
+a.btn_03:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -6px;
+}
+a.btn_03:hover {
+  background: #fff;
+  color: #228bc8;
+}
+a.btn_03:hover:before {
+  border-top: 2px solid #228bc8;
+  border-right: 2px solid #228bc8;
+}
