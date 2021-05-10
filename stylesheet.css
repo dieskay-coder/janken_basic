@@ -22,7 +22,7 @@ canvas {
 
 #rock, #scissors, #paper {
   width:130px;
-  font-size: 36px;
+  font-size: 32px;
   color: #fff;
   background:navy;
 }
