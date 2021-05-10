@@ -33,6 +33,7 @@ canvas {
   opacity: 0.9;
   cursor: pointer;
 }
+
 #restart {
   display: block;
   font-size: 24px;
